@@ -10,6 +10,14 @@
     .search-container {
         .list-form-field {
             width: 500px;
+
+            @media (max-width: 768px) {
+                width: 350px;
+            }
+
+            @media (max-width: 480px) {
+                width: 250px;
+            }
         }
     }
 }
