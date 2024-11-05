@@ -1,0 +1,15 @@
+@mixin centrar-componentes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-container {
+    @include centrar-componentes();
+    margin-top: 2em;
+    .search-container {
+        .list-form-field {
+            width: 500px;
+        }
+    }
+}
